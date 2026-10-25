@@ -256,6 +256,6 @@ class Cantina(TilemapScene):
             draw_prompt(
                 screen,
                 "E - Comprar salgadinho",
-                self.hint_font,
+                self.hint_font, # type: ignore
                 dialogue_manager=self.game.dialogue_manager,
             )
